@@ -1,0 +1,239 @@
+@import '../../../scss/variables.scss';
+@import '../../../scss/mixings.scss';
+@import '../../../scss/extra-classes.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#app{
+    background-color: $primary-bg;
+    font-family: $ff-primary;
+    color: $primary-text-color;
+    padding: 374px 0px 0px 216px;
+    height: 2405px;
+}
+
+.decor-line{
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  right: 0;
+  height: 2405px;
+}
+
+.line1{
+  margin-right: 24px;
+}
+
+.ellipse1{
+  width: 260px;
+  height: 344px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.ellipse2{
+  width: 82px;
+  height: 82px;
+  position: absolute;
+  top: 160px;
+  left: 670px;
+}
+
+.ellipse3{
+  width: 561px;
+  height: 561px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.ellipse4{
+  width: 180px;
+  height: 344px;
+  position: absolute;
+  top: 400px;
+  right: 0;
+}
+
+.ellipse5{
+  width: 165px;
+  height: 165px;
+  position: absolute;
+  top: 750px;
+  right: 50px;
+}
+
+.ellipse6{
+  width: 61px;
+  height: 61px;
+  position: absolute;
+  top: 1050px;
+  left: 600px;
+}
+
+.ellipse7{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 1300px;
+  right: 30px;
+}
+
+.ellipse8{
+  width: 361px;
+  height: 561px;
+  position: absolute;
+  top: 1500px;
+  left: 0px;
+}
+
+.ellipse9{
+  width: 211px;
+  height: 211px;
+  position: absolute;
+  top: 2000px;
+  left: 250px;
+}
+
+.ellipse10{
+  width: 142px;
+  height: 142px;
+  position: absolute;
+  top: 1950px;
+  right: 250px;
+}
+
+.ellipse11{
+  width: 191px;
+  height: 281px;
+  position: absolute;
+  top: 1830px;
+  right: 0px;
+}
+
+.ellipse12{
+  width: 361px;
+  height: 361px;
+  position: absolute;
+  top: 2044px;
+  right: 0px;
+}
+
+.branch1{
+  width: 650px;
+  height: 550px;
+  position: absolute;
+  top: 310px;
+  left: 0;
+}
+
+.branch2{
+  width: 420px;
+  height: 365px;
+  position: absolute;
+  top: 650px;
+  right: 200px;
+}
+
+.hellotitle{
+  font-size: 96px;
+  margin-bottom: $margin-xs;
+}
+
+.change{
+  width: 221px;
+  height: 42px;
+  font-size: 24px;
+  border: none;
+  border-radius: 50px;
+  @include d-flex(center, center);
+  background-color: white;
+  cursor: pointer;
+  transition: 200ms;
+  margin-bottom: $margin-xl;
+  position: relative;
+  z-index: 2;
+
+  &:hover{
+    background-color: aliceblue;
+    scale: 1.1;
+    width: 250px;
+  }
+}
+
+.container_userData{
+  font-size: 36px;
+  margin-bottom: 492px;
+}
+
+.userData_name, .userData_email, .userData_tel{
+  display: flex;
+  margin-bottom: $margin-xl;
+}
+
+.name{
+  margin-right: $margin-xxxl;
+}
+
+.email{
+  margin-right: 105px;
+}
+
+.tel{
+  margin-right: 60px;
+}
+
+.my-calendar{
+  font-size: 64px;
+}
+
+.my-calendar_container{
+  height: 1020px;
+}
+
+.bt-wrapper-back{
+  position: relative;
+  left: -150px;
+  transition: 600ms;
+  width: 300px;
+
+  &:hover{
+    left: -180px;
+  }
+}
+
+.bt-back{
+  display: block;
+  width: 300px;
+}
+
+.back{
+  @include d-flex(center, center);
+  width: 300px;
+  height: 35px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &_arrow{
+    width: 38px;
+    margin-right: $margin-xs;
+  }
+
+  &_txt{
+    font-size: 24px;
+    color: rgba(62, 74, 65, 1);
+  }
+}

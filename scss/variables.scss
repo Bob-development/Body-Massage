@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Jacques";
+    src: url(../public/fonts/Jacques/JacquesFrancois-Regular.ttf);
+}
+
+// PADDING
+$padding-xxxl: 128px;
+$padding-xxl: 60px;
+$padding-xl: 50px;
+$padding-l: 40px;
+$padding-m: 30px;
+$padding-s: 20px;
+$padding-xs: 10px;
+// MARGIN
+$margin-xxxl: 128px;
+$margin-xxl: 60px;
+$margin-xl: 50px;
+$margin-l: 40px;
+$margin-m: 30px;
+$margin-s: 20px;
+$margin-xs: 10px;
+
+// FONT-SIZE
+$fs-xl: 64px;
+$fs-l: 45px;
+$fs-m: 18px;
+$fs-s: 14px;
+$fs-xs: 12px;
+$fs-xxs: 9px;
+
+// FONT-FAMILY
+$ff-primary: "Jacques";
+
+// COLOR
+$primary-text-color: rgba(62, 74, 65, 1);
+
+// BG
+$primary-bg: rgb(181, 212, 181);
+$secondary-bg: rgb(255, 255, 255, 1);
+
+// TRANSITION
+$transition-speed: 500ms;
+$transition-speed-low: 300ms;
+
+// Box-shadow
+$box-shadow-x: 8px 11px 8px;
+$box-shadow-m: 6px 8px 6px;
+$box-shadow-s: 4px 6px 4px;
+
+// border radius
+$br-header: 0 0 1rem 1rem;
+$br-sidebar: 1rem;
+$br-footer: 1rem 1rem 0 0;
+$br-nav: 1rem;

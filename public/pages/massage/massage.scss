@@ -1,0 +1,182 @@
+@import '../../../scss/variables.scss';
+@import '../../../scss/mixings.scss';
+@import '../../../scss/extra-classes.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#app{
+    background-color: $primary-bg;
+    font-family: $ff-primary;
+    color: $primary-text-color;
+    padding: 284px 0px 38px;
+}
+
+.ellipse1{
+  width: 561px;
+  height: 861px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 15px;
+}
+
+.ellipse2{
+  width: 281px;
+  height: 181px;
+  position: absolute;
+  z-index: 1;
+  right: 450px;
+  top: 0;
+}
+
+.ellipse3{
+  width: 281px;
+  height: 281px;
+  position: absolute;
+  z-index: 1;
+  right: 500px;
+  top: 1050px;
+}
+
+.ellipse4{
+  width: 141px;
+  height: 141px;
+  position: absolute;
+  z-index: 1;
+  right: 650px;
+  top: 1350px;
+}
+
+.ellipse5{
+  width: 561px;
+  height: 561px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 1008px;
+}
+
+
+.branch1{
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  z-index: 1;
+  right: 300px;
+  top: 480px;
+}
+
+.img-wrapper1{
+  width: 1022px;
+  height: 171px;
+  position: absolute;
+  z-index: 2;
+  left: 440px;
+  top: -9px;
+}
+
+.img-wrapper2{
+  width: 1022px;
+  height: 171px;
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  left: 430px;
+}
+
+.img-wrapper3{
+  width: 1022px;
+  height: 171px;
+  position: absolute;
+  z-index: 2;
+  left: 460px;
+  top: 0px;
+}
+
+.days{
+  width: 1022px;
+  height: 171px;
+  border-radius: 83px;
+  background-color: white;
+  padding: 0px $padding-xl;
+  @include d-flex(space-between, center);
+
+  &-df{
+    @include d-flex(center, center);
+    margin-bottom: 1041px;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.arr-left, .arr-right{
+  width: 27px;
+  height: 62px;
+  background-color: inherit;
+  border: none;
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+
+  &-img{
+    width: 27px;
+    height: 62px;
+  }
+}
+
+.day{
+  &_x{
+    font-size: 36px;
+    background-color: inherit;
+    border: none;
+    border-radius: 10px;
+    color: $primary-text-color;
+    position: relative;
+    padding: $padding-xs;
+    z-index: 3;
+    transition: 200ms;
+
+    &:hover{
+      background-color: aliceblue;
+    }
+  }
+}
+
+.bt-wrapper-back{
+  position: relative;
+  left: 80px;
+  transition: 600ms;
+  width: 300px;
+
+  &:hover{
+    left: 20px;
+  }
+}
+
+.back{
+  @include d-flex(center, center);
+  width: 300px;
+  height: 35px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &_arrow{
+    width: 38px;
+    margin-right: $margin-xs;
+  }
+
+  &_txt{
+    font-size: 24px;
+    color: rgba(62, 74, 65, 1);
+  }
+}
